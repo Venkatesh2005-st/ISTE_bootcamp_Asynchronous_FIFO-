@@ -1,0 +1,335 @@
+$date
+	Mon Jun 16 23:39:30 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_fifo_mem $end
+$var wire 8 ! data_out [7:0] $end
+$var parameter 32 " DATA_WIDTH $end
+$var parameter 32 # DEPTH $end
+$var parameter 32 $ PTR_WIDTH $end
+$var parameter 32 % RCLK_PERIOD $end
+$var parameter 32 & WCLK_PERIOD $end
+$var reg 4 ' b_rptr [3:0] $end
+$var reg 4 ( b_wptr [3:0] $end
+$var reg 8 ) data_in [7:0] $end
+$var reg 1 * empty $end
+$var reg 4 + fifo_level [3:0] $end
+$var reg 1 , full $end
+$var reg 1 - r_en $end
+$var reg 1 . rclk $end
+$var reg 4 / tb_rptr_counter [3:0] $end
+$var reg 4 0 tb_wptr_counter [3:0] $end
+$var reg 1 1 w_en $end
+$var reg 1 2 wclk $end
+$scope module fifo_mem $end
+$var wire 4 3 b_rptr [3:0] $end
+$var wire 4 4 b_wptr [3:0] $end
+$var wire 8 5 data_in [7:0] $end
+$var wire 1 * empty $end
+$var wire 1 , full $end
+$var wire 1 - r_en $end
+$var wire 1 . rclk $end
+$var wire 1 1 w_en $end
+$var wire 1 2 wclk $end
+$var parameter 32 6 DATA_WIDTH $end
+$var parameter 32 7 DEPTH $end
+$var parameter 32 8 PTR_WIDTH $end
+$var reg 8 9 data_out [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 8
+b1000 7
+b1000 6
+b1010 &
+b1111 %
+b11 $
+b1000 #
+b1000 "
+$end
+#0
+$dumpvars
+bx 9
+b0 5
+b0 4
+b0 3
+02
+01
+b0 0
+b0 /
+0.
+0-
+0,
+b0 +
+1*
+b0 )
+b0 (
+b0 '
+bx !
+$end
+#5000
+12
+#7000
+1.
+#10000
+02
+#14000
+0.
+#15000
+12
+#20000
+02
+#21000
+1.
+#25000
+12
+#28000
+0.
+#30000
+02
+#35000
+12
+1.
+#40000
+02
+#42000
+0.
+#45000
+12
+#49000
+1.
+#50000
+02
+0*
+11
+#55000
+b1 +
+b1 0
+b10010010 )
+b10010010 5
+12
+#56000
+0.
+#60000
+02
+#63000
+1.
+#65000
+b10 +
+b10 0
+b1 (
+b1 4
+b1000000 )
+b1000000 5
+12
+#70000
+02
+0.
+#75000
+b11 +
+b11 0
+b10 (
+b10 4
+b100 )
+b100 5
+12
+#77000
+1.
+#80000
+02
+#84000
+0.
+#85000
+b100 +
+b100 0
+b11 (
+b11 4
+b110001 )
+b110001 5
+12
+#90000
+02
+#91000
+1.
+#95000
+01
+b101 +
+b101 0
+b100 (
+b100 4
+b10000110 )
+b10000110 5
+12
+#98000
+0.
+#100000
+02
+#105000
+b10010010 !
+b10010010 9
+b100 +
+b1 /
+12
+1.
+1-
+#110000
+02
+#112000
+0.
+#115000
+12
+#119000
+b11 +
+b10 /
+b1 '
+b1 3
+1.
+#120000
+02
+#125000
+12
+#126000
+0.
+#130000
+02
+#133000
+0-
+b10 +
+b11 /
+b10 '
+b10 3
+1.
+#135000
+12
+#140000
+02
+0.
+#145000
+12
+#147000
+1.
+#148000
+11
+#150000
+02
+#154000
+0.
+#155000
+b11 +
+b110 0
+b101 (
+b101 4
+b11000110 )
+b11000110 5
+12
+#160000
+02
+#161000
+1.
+#165000
+1-
+01
+b100 +
+b111 0
+b110 (
+b110 4
+b110010 )
+b110010 5
+12
+#168000
+0.
+#170000
+02
+#175000
+bx !
+bx 9
+b11 +
+b100 /
+b11 '
+b11 3
+12
+1.
+#180000
+02
+#182000
+0.
+#185000
+12
+#189000
+b10 +
+b101 /
+b100 '
+b100 3
+1.
+#190000
+02
+#195000
+12
+#196000
+0.
+#200000
+02
+#203000
+b11000110 !
+b11000110 9
+b1 +
+b110 /
+b101 '
+b101 3
+1.
+#205000
+12
+#210000
+02
+0.
+#215000
+12
+#217000
+0-
+1*
+b0 +
+b111 /
+b110 '
+b110 3
+1.
+#220000
+02
+#224000
+0.
+#225000
+12
+#230000
+02
+#231000
+1.
+#235000
+12
+#238000
+0.
+#240000
+02
+#245000
+12
+1.
+#250000
+02
+#252000
+0.
+#255000
+12
+#259000
+1.
+#260000
+02
+#265000
+12
+#266000
+0.
+#267000

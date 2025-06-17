@@ -1,0 +1,27 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Mon Jun 16 18:20:26 2025
+[*]
+[dumpfile] "D:\college_stuff\Charge\async_fifo\synchronizer_tb.vcd"
+[dumpfile_mtime] "Mon Jun 16 18:19:50 2025"
+[dumpfile_size] 1278
+[savefile] "D:\college_stuff\Charge\async_fifo\ff_sync_tb.gtkw"
+[timestart] 0
+[size] 1536 793
+[pos] -191 -186
+*-15.000000 30000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] tb_synchronizer.
+[sst_width] 197
+[signals_width] 110
+[sst_expanded] 1
+[sst_vpaned_height] 221
+@28
+tb_synchronizer.ff_sync.clk
+tb_synchronizer.ff_sync.rst_n
+@22
+tb_synchronizer.ff_sync.d_in[3:0]
+tb_synchronizer.ff_sync.q1[3:0]
+@23
+tb_synchronizer.ff_sync.d_out[3:0]
+[pattern_trace] 1
+[pattern_trace] 0
