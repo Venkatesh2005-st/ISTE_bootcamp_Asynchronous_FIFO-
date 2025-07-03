@@ -1,0 +1,26 @@
+[*]
+[*] GTKWave Analyzer v3.3.100 (w)1999-2019 BSI
+[*] Thu Jul 03 16:46:38 2025
+[*]
+[dumpfile] "D:\college_stuff\Charge\async_fifo\Milestone 2\outputs\outputs\wptrhandler.vcd"
+[savefile] "D:\college_stuff\Charge\async_fifo\Milestone 2\outputs\write_pointer_handler.gtkw"
+[timestart] 0
+[size] 1536 793
+[pos] -35 -35
+*-16.000000 213600 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 197
+[signals_width] 158
+[sst_expanded] 1
+[sst_vpaned_height] 221
+@28
+tb_wptr_handler.wclk
+tb_wptr_handler.wrst_n
+tb_wptr_handler.w_en
+@22
+tb_wptr_handler.g_rptr_sync[3:0]
+tb_wptr_handler.b_wptr[3:0]
+tb_wptr_handler.g_wptr[3:0]
+@29
+tb_wptr_handler.full
+[pattern_trace] 1
+[pattern_trace] 0
